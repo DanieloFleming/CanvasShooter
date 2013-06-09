@@ -1,0 +1,39 @@
+<!DOCTYPE html><html>
+	<head>
+		<meta charset=utf-8><title>Daniëlo Fleming</title>
+		<link rel="shortcut icon" href=fav/favicon.ico>
+		<link href=css/style.css rel=stylesheet media="screen, projection">
+		<link href=game/css/game.css rel=stylesheet type=text/css />
+	</head>
+	<body oncontextmenu=return false; onload=setGame();>
+
+			<nav>
+				<ul id=menu>
+
+				</ul>
+				<p id=name href=#a>Danielo<span style=font-weight:800>Fleming</span></p>
+			</nav>
+
+				<section id=a class=viewport>
+					<header>
+						<div id=logo>
+							<p id=logoname>Canvas<span style=font-weight:900>Shooter</span></p>
+						</div>
+						<hr style='width:600px;margin-left:auto;margin-right:auto;border:1px dashed #2e2e2e' />
+					</header>
+					<div id=wip>
+						<div id=tilt width=600 height=300>
+							<canvas id=gamebg width=630 height=330></canvas>
+							<canvas id=playfield width=630 height=330 tabindex=0></canvas>
+							<canvas id=score width=630 height=330></canvas>
+						</div>
+					</div>
+				</section>
+		<script type=text/javascript src=js/lib/jquery.js></script>
+
+		<script type=text/javascript src=game/js/game.js></script> 
+		<script type=text/javascript src=game/js/background.js></script>
+		<script type=text/javascript src=game/js/player.js></script> 
+		<script type=text/javascript src=game/js/enemy.js></script>
+	</body>
+</html>

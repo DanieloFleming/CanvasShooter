@@ -1,0 +1,33 @@
+*,h1,h2,h3,p{font-family:"Century Gothic";margin:0;padding:0}
+
+
+p{margin-bottom:10px;font-size:14px}
+
+html{color:#2e2e2e;}
+
+
+
+
+#name{font-size:20px;display:inline;clear:both;margin:0 25px 0 75px}
+
+
+nav{position:fixed;z-index:5;left:0; right:0;top:0;box-shadow:0 -1px 6px #000;padding-top:15px;padding-bottom:10px;background:#FFF}
+
+
+
+
+
+
+section header{text-align:center;color:#2e2e2e;margin-bottom:40px;margin-top:60px;}
+section.viewport{
+	width: 700px;
+	margin-left:auto;
+	margin-right:auto;
+
+
+}
+
+
+
+#logoname{margin-top:-5px;font-size:30px}
+#wip{width:600px;height:300px;margin-left:auto;margin-right:auto;background:#FFF}

@@ -1,0 +1,6 @@
+#wip{position:relative;overflow:hidden;margin-left:auto;margin-right:auto;text-align:left;width:600px;height:300px;border:10px solid white;border-radius:5px;box-shadow:1px 1px 4px #333;background-color:black}
+#tilt{position:relative}
+#gamebg,#score,#playfield{width:630px;height:330px;position:absolute}
+#gamebg{z-index:6;background-color:black}
+#score{z-index:7}
+#playfield{z-index:8}
